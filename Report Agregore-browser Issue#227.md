@@ -20,7 +20,7 @@ attempts, I was unable to resolve these issues. Consequently, I switched to
 GitHub Spaces, which successfully set up all the dependencies. However, I was
 unable to push to my branch due to a persistent `git error: failed to push
 some refs to remote`. 
-As a workaround, I decided to use Docker, which,
+As a workaround, I decided to use `Docker`, which,
 despite taking some time to set up, eventually allowed me to work smoothly.
 
 ## Issue Resolution
