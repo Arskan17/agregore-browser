@@ -25,12 +25,14 @@ despite taking some time to set up, eventually allowed me to work smoothly.
 
 ## Issue Resolution
 
-I was able to resolve part of the main issue (Issue #227), but the code still
-needs to be formatted according to the project’s style guide. In the process, I
-created some additional functions and objects that were not originally present
-in the code. I am currently awaiting feedback from the Project owner regarding
-these additions (since they implemented the UI, the part I’m currently working
-on).
+I was able to resolve this issue (Issue #227).  
+I did it by using The HTMLElement `paste event`.  
+I added an eventlistener that gets triggered when the middle mouse button is clicked in the address bar.  
+It gets data from the clipboard and then checks if it's a valid url.  
+If so it loads the url with the help of a `dispatchEvent`.
+
+Hooray...
+The page loads!
 
 ## Summary
 
@@ -38,27 +40,17 @@ on).
     bar.
 - Expected results: The recently copied URL in your Clipboard should be
     pasted into the address bar, and the website should load.
-- Actual results: The URL is pasted into the address bar, but the website is
-    not loading automatically.
-## Additional notes:
+- Actual results: The URL is pasted into the address bar and the webpage is loaded.
+## Additional notes: -
 
-- I think the part to load the website must be in there, since the browser
-does just that when the `Enter key` is pressed.
-
-- Also, I should format the code in style with what’s already there, so it’s
-easier to understand.
-
-## Ongoing Challenges
-
-One ongoing challenge is finding a more efficient way to test my
-implementation. Currently, I have to build the entire project and go through the
-process of installing & uninstalling every time I want to check if my
-implementation works. I am actively seeking a workaround for this issue.
+## Ongoing Challenges: -
 
 ## What I learned
 
 Electron is a really powerful tool. It allows you to easily create applications that
 can be packaged for pretty much every major OS.
+
+HTMLElements are very resourcefull. They handle pretty much everything happening in the browser window.
 
 Docker is a lifesaver when it comes to setting up your development
 environment without affecting your local machine, or your local machine
