@@ -18,7 +18,8 @@ So far it shows the `reload-button` ond the `loading-indicator`
 - Steps to reproduce: Click on the reload button to load/reload a page
 - Expected results: The loading indicator/spinner should be shown, and the reload button hidden.
 - Actual results: Both the reload button and the loading indicator are shown idefinitely, no mather if clicked or not.
-## Additional notes: Awaiting feedback from admins.
+## Additional notes: 
+- Awaiting feedback from admins.
 
 ## Ongoing Challenges: I don't really know how to correctly handle events from classes to classes. Feels a little cumbersome. 
 
