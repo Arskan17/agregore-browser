@@ -8,7 +8,7 @@ the minimal web browser for the distributed web.
 
 ## Issue Resolution
 
-I'm still working on it `(Issue #227)`.  
+I'm still working on it `(Issue #182)`.  
 I did it by using attributes, and a function to detect when its value changes, and runs a script depending in accordance.
 Events are sent to the `UI`, and depending on the event, the value of the attribute gets updated.
 So far it shows the `reload-button` ond the `loading-indicator`
